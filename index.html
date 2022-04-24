@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Part I</title>
+ <style>
+  body {
+   background-color: lightblue;
+   padding: 30px;
+  }
+ </style>
+ <script>
+    function checkPassword() {
+     var password = document.getElementById("passwordBox");
+     var passwordText = password.value;
+     if(passwordText == "notyet") {
+      return true;
+     }
+     alert("Incorrect password, try again Tolete");
+     return false;
+     }
+ </script>
+</head>
+<body>
+ <p style="font-size: 30pt;">The Secret of Duck Island: Special Edition</p>
+ <p style="font-size: 30pt;">Part I</p>
+ <p>I see you have made it past the first hurdle - very good... very nice...</p>
+ <p>There is a second clue I want you to have now. This time - you will need to travel somewhere for it.</p>
+ <p>The next clue is the following:</p>
+ <br>
+ <p> <i>I am three in one,</i> </p>
+ <p> <i>Yet I am incredibly light,</i> </p>
+ <p> <i>Two have the power of flight,</i> </p>
+ <p> <i>The other weighs over a tonne.</i> </p>
+ <br>
+ <p>What am I?</p>
+ <br>
+ <p>Once you have found the 'ansuer', type it below:</p>
+ <p>Password:<input id="passwordBox" type="password"/></p>
+ <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" onclick="return checkPassword();">
+  Submit
+ </a>
+</body>
+</html>
